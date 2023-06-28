@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--primary);
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
+.footer .logo img {
+  margin-right: 10px;
+}
+
+.footer .logo h1 {
+  font-size: 24px;
+  font-weight: 500;
+}

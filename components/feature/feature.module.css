@@ -1,0 +1,18 @@
+.feature {
+  margin-bottom: 40px;
+}
+
+.feature img {
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.feature p {
+  font-size: 16px;
+  line-height: 1.6;
+}
