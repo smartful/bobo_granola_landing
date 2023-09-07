@@ -29,3 +29,29 @@
 .underline {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 480px) {
+  .ctaButton {
+    width: 230px;
+    background-color: var(--primary);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 6px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .ctaInfos {
+    width: 150px;
+    border: 2px solid #f70909;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    color: #f70909;
+    margin-top: 15px;
+    text-align: center;
+  }
+}
