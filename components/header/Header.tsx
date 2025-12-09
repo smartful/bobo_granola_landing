@@ -4,11 +4,11 @@ import styles from "./header.module.css";
 const Header = () => {
   return (
     <header className={styles.header}>
+      <div className={styles.textBlock}>
+        <h2>Rencontrez des âmes engagées pour un monde meilleur</h2>
+        <h3>Le rendez-vous des cœurs qui militent pour la planète.</h3>
+      </div>
       <Nav />
-      <h2>Rencontrez des âmes engagées pour un monde meilleur !</h2>
-      <h3>
-        Trouvez votre partenaire idéal pour une relation écologique et engagée.
-      </h3>
     </header>
   );
 };

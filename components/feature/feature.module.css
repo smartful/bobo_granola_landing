@@ -1,18 +1,31 @@
 .feature {
-  margin-bottom: 40px;
+  padding: 18px 16px;
+  border-radius: 18px;
+  background: var(--card);
+  border: 1px solid var(--card-strong);
+  display: grid;
+  gap: 12px;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.feature:hover {
+  transform: translateY(-6px);
+  border-color: rgba(82, 216, 133, 0.35);
+  background: rgba(255, 255, 255, 0.07);
 }
 
 .feature img {
-  margin-bottom: 20px;
+  margin-bottom: 4px;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.35));
 }
 
 .feature h3 {
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 
 .feature p {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.6;
+  color: var(--muted);
 }

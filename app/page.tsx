@@ -12,20 +12,28 @@ export default function Home() {
       <Header />
       <Hero />
       <section className={styles.featuresContainer}>
+        <div className={styles.sectionHeading}>
+          <p className={styles.kicker}>Ce qui nous rassemble</p>
+          <h2>Une communauté d'âmes vertes</h2>
+          <p className={styles.subtitle}>
+            Bobo Granola, c&apos;est l&apos;espace pour rencontrer des personnes
+            qui vivent leurs convictions écologiques au quotidien.
+          </p>
+        </div>
         <div className={styles.container}>
           <Feature
             title="Protection de l'environnement"
-            description="Rencontrez des personnes engagées dans la préservation de l'environnement et contribuez ensemble à un avenir durable."
+            description="Rencontrez des personnes engagées dans la préservation du vivant et construisez ensemble un avenir durable."
             image="/icon1.png"
           />
           <Feature
             title="Mode de vie éco-responsable"
-            description="Connectez-vous avec des individus qui adoptent un mode de vie respectueux de la planète et inspirez-vous mutuellement."
+            description="Connectez-vous avec des individus qui font rimer quotidien responsable et joie, et inspirez-vous mutuellement."
             image="/icon2.png"
           />
           <Feature
-            title="Événements écolos"
-            description="Découvrez des événements écologiques près de chez vous et participez à des activités en lien avec la protection de l'environnement."
+            title="Événements écologiques"
+            description="Découvrez des événements engagés près de chez vous et rejoignez des actions locales pour faire bouger les lignes."
             image="/icon3.png"
           />
         </div>

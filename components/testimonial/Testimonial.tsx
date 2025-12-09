@@ -5,15 +5,14 @@ const Testimonial = () => {
   return (
     <section className={styles.testimonial}>
       <div className={styles.container}>
-        <blockquote>
+        <blockquote className={styles.testimonial}>
           <p>
             <span className={styles.strong}>Bobo Granola</span> m'a permis de
             rencontrer mon partenaire idéal, quelqu'un qui partage ma passion
             pour la nature. <br />
-            Nous travaillons maintenant ensemble pour faire une réelle
-            différence dans le monde.
+            Nous agissons ensemble pour faire une réelle différence.
           </p>
-          <cite>- Emma, militante écolo</cite>
+          <cite className={styles.source}>- Emma, militante écolo</cite>
         </blockquote>
         <Image
           src="/emma.jpg"

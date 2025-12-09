@@ -1,19 +1,48 @@
 .footer {
-  background-color: var(--primary);
-  padding: 40px 0;
-  text-align: center;
-  color: white;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px clamp(18px, 3vw, 28px);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--card-strong);
+  border-radius: 18px;
+  color: #cfe8d9;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.footer p {
-  font-size: 16px;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
-.footer .logo img {
-  margin-right: 10px;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-.footer .logo h1 {
-  font-size: 24px;
-  font-weight: 500;
+.logo h1 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.logo img {
+  margin-right: 2px;
+}
+
+.baseline {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.copy {
+  color: var(--muted);
+  font-size: 0.95rem;
 }

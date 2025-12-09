@@ -8,12 +8,16 @@ const Nav = () => {
         <Image
           src="/logo.png"
           alt="Bobo Granola Logo"
-          width={80}
-          height={80}
+          width={56}
+          height={56}
           priority
         />
-        <h1>Bobo Granola</h1>
+        <div>
+          <h1>Bobo Granola</h1>
+          <p>Rencontres qui font pousser des forêts.</p>
+        </div>
       </div>
+      <span className={styles.badge}>Édition engagée</span>
     </nav>
   );
 };

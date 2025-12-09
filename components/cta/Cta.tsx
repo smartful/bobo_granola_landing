@@ -13,13 +13,13 @@ const Cta = () => {
   return (
     <>
       <button onClick={toggle} className={styles.ctaButton}>
-        Inscrivez-vous dès maintenant
+        Rejoindre la communauté
       </button>
       {clicked && (
-        <h3 className={styles.ctaInfos}>
-          La récupération de courriels est en{" "}
-          <span className={styles.underline}>cours de construction</span> ...
-        </h3>
+        <p className={styles.ctaInfos}>
+          La récolte d'e-mails arrive bientôt. En attendant, suivez nos
+          actualités et événements près de chez vous.
+        </p>
       )}
     </>
   );

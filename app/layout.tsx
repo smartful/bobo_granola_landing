@@ -1,12 +1,11 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Manrope } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Bobo Granola",
-  description:
-    "Trouvez votre partenaire idéal pour une relation écologique et engagée.",
+  description: "Trouvez votre partenaire idéal pour une relation écologique et engagée.",
 };
 
 export default function RootLayout({
@@ -16,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body className={inter.className}>{children}</body>
+      <body className={manrope.className}>{children}</body>
     </html>
   );
 }

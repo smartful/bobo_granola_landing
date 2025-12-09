@@ -1,57 +1,48 @@
 .ctaButton {
-  width: 500px;
-  background-color: var(--primary);
-  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-width: 220px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-strong));
+  color: #052010;
   text-decoration: none;
-  font-size: 24px;
-  font-weight: 500;
-  padding: 15px 30px;
-  border-radius: 8px;
-  border: none;
-  transition: background-color 0.3s ease;
+  font-size: 1.05rem;
+  font-weight: 800;
+  padding: 14px 22px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 14px 30px rgba(82, 216, 133, 0.28);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  cursor: pointer;
 }
 
 .ctaButton:hover {
-  background-color: #006400;
+  transform: translateY(-2px);
+  box-shadow: 0 20px 36px rgba(82, 216, 133, 0.35);
+  filter: saturate(1.05);
+}
+
+.ctaButton:active {
+  transform: translateY(0);
 }
 
 .ctaInfos {
-  width: 300px;
-  border: 2px solid #f70909;
-  border-radius: 15px;
-  padding: 15px;
-  background-color: white;
-  color: #f70909;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.underline {
-  text-decoration: underline;
+  max-width: 520px;
+  border: 1px solid rgba(82, 216, 133, 0.4);
+  border-radius: 14px;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.04);
+  color: #c9eedc;
+  margin-top: 14px;
+  text-align: left;
+  font-size: 0.98rem;
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 480px) {
   .ctaButton {
-    width: 230px;
-    background-color: var(--primary);
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 6px 6px;
-    border-radius: 8px;
-    border: none;
-    transition: background-color 0.3s ease;
-  }
-
-  .ctaInfos {
-    width: 150px;
-    border: 2px solid #f70909;
-    border-radius: 15px;
-    padding: 10px;
-    background-color: white;
-    color: #f70909;
-    margin-top: 15px;
-    text-align: center;
+    width: 100%;
+    justify-content: center;
   }
 }
